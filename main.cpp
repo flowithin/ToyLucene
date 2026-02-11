@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-char *ReadFile(char *filename, size_t &fileSize) {
+char *ReadFile(const char *filename, size_t &fileSize) {
   // Read the file into memory.
   // You'll soon learn a much more efficient way to do this.
 
