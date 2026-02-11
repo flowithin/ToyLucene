@@ -25,3 +25,10 @@ make \
 - `SegmentInfos`: manages index segments on disk
 
 Please goto [this folder to READ the resources](https://drive.google.com/drive/folders/1PqnBKOzv0RhhQ-dEB7xG2Dtr1WjSCScm?usp=sharing)
+
+
+## To do list
+- [ ] multi-threading for index writer
+- [ ] core components for index reading `Scorer`, `IndexReader` and statistics when building index
+- [ ] Error handling, exception, RAII
+- [ ] More Codec formats
